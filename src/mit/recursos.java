@@ -49,6 +49,7 @@ public class recursos {
 			// Go to URL
 			userAgent.visit(sitio);
 			
+			
 			// Create a list of links from each table
 			Elements urls = userAgent.doc.findEach("<table>").findEach("<a>");
 			
